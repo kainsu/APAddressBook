@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD189AAB1E9D3D04009CDF82 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD189AAA1E9D3D04009CDF82 /* Info.plist */; };
 		CD189AEA1E9D3D0A009CDF82 /* APContactBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = CD189AB01E9D3D0A009CDF82 /* APContactBuilder.h */; };
 		CD189AEB1E9D3D0A009CDF82 /* APContactBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = CD189AB11E9D3D0A009CDF82 /* APContactBuilder.m */; };
 		CD189AEC1E9D3D0A009CDF82 /* APContactListBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = CD189AB21E9D3D0A009CDF82 /* APContactListBuilder.h */; };
@@ -393,7 +392,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD189AAB1E9D3D04009CDF82 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +456,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -475,6 +474,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = module.modulemap;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -509,6 +509,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -520,6 +521,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = module.modulemap;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
