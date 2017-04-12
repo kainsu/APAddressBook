@@ -1,0 +1,3 @@
+module APAddressBook {
+    umbrella header "Core/Public/APAddressBookFramework.h"
+}
