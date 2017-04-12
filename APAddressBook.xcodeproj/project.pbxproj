@@ -57,6 +57,7 @@
 		CD189B181E9D3D0A009CDF82 /* APSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CD189AE61E9D3D0A009CDF82 /* APSource.m */; };
 		CD189B191E9D3D0A009CDF82 /* APTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = CD189AE71E9D3D0A009CDF82 /* APTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD189B1A1E9D3D0A009CDF82 /* APAddressBook-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = CD189AE91E9D3D0A009CDF82 /* APAddressBook-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDC826A81E9E483E00F36076 /* APAddressBookFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC826A71E9E465000F36076 /* APAddressBookFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -317,6 +318,7 @@
 				CD189B151E9D3D0A009CDF82 /* APSocialProfile.h in Headers */,
 				CD189B171E9D3D0A009CDF82 /* APSource.h in Headers */,
 				CD189B191E9D3D0A009CDF82 /* APTypes.h in Headers */,
+				CDC826A81E9E483E00F36076 /* APAddressBookFramework.h in Headers */,
 				CD189B1A1E9D3D0A009CDF82 /* APAddressBook-Bridging.h in Headers */,
 				CD189AF01E9D3D0A009CDF82 /* APImageExtractor.h in Headers */,
 				CD189AF91E9D3D0A009CDF82 /* APAddressBookExternalChangeRoutine.h in Headers */,
